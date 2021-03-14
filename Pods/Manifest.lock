@@ -1,0 +1,38 @@
+PODS:
+  - JXCategoryView (1.5.8)
+  - Masonry (1.1.0)
+  - MJExtension (3.2.2)
+  - MJRefresh (3.4.3)
+  - Reveal-SDK (24)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+
+DEPENDENCIES:
+  - JXCategoryView (~> 1.5.8)
+  - Masonry (= 1.1.0)
+  - MJExtension (= 3.2.2)
+  - MJRefresh (= 3.4.3)
+  - Reveal-SDK (= 24)
+  - SDWebImage (= 3.8.2)
+
+SPEC REPOS:
+  https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
+    - JXCategoryView
+    - Masonry
+    - MJExtension
+    - MJRefresh
+    - Reveal-SDK
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  JXCategoryView: 778a620f76070d6598fd8d7239991b8da8326170
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJExtension: d9b9c74cbdeb724c1e9ecbb157b318276e62e876
+  MJRefresh: 53e3e3219f204425ee6d3e62e8733d3295944cd6
+  Reveal-SDK: 5d7e56b8f018c0a88b3a2c10bf68d598bbd3b071
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+
+PODFILE CHECKSUM: f44c6e5fc6a415b7edaf099914d51fbd7ef5d64c
+
+COCOAPODS: 1.10.0
