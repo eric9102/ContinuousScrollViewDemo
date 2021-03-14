@@ -23,7 +23,7 @@
 }
 
 - (CGFloat)heightForView{
-    return 1266;
+    return 1466;
 }
 
 
