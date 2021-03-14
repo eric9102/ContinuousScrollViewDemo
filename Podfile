@@ -3,7 +3,7 @@ source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
 platform :ios, '10.0'
 inhibit_all_warnings!
 
-target 'ContinuousScrollViewDemo' do
+target 'ContinuousScrollDemo' do
 
 pod 'MJRefresh', '3.4.3'
 pod 'SDWebImage', '3.8.2'
