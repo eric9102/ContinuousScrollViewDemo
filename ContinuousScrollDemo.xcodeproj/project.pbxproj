@@ -16,8 +16,7 @@
 		792C4DC425FE1504006DC199 /* YYMainScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 792C4DC325FE1504006DC199 /* YYMainScrollView.m */; };
 		792C4DC725FE543A006DC199 /* YYHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 792C4DC625FE543A006DC199 /* YYHeaderView.m */; };
 		792C4DC925FE546E006DC199 /* YYHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 792C4DC825FE546E006DC199 /* YYHeaderView.xib */; };
-		792C4DCC25FE54EE006DC199 /* YYBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 792C4DCB25FE54EE006DC199 /* YYBottomView.m */; };
-		792C4DCE25FE5504006DC199 /* YYBottomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 792C4DCD25FE5504006DC199 /* YYBottomView.xib */; };
+		799D606525FEF84A00842CC3 /* GKDBListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 799D606325FEF84A00842CC3 /* GKDBListView.m */; };
 		F9DD5468502CA2C8F1139DE6 /* libPods-ContinuousScrollDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06E56C1E96591B58E60486E6 /* libPods-ContinuousScrollDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -38,9 +37,8 @@
 		792C4DC525FE543A006DC199 /* YYHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYHeaderView.h; sourceTree = "<group>"; };
 		792C4DC625FE543A006DC199 /* YYHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYHeaderView.m; sourceTree = "<group>"; };
 		792C4DC825FE546E006DC199 /* YYHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YYHeaderView.xib; sourceTree = "<group>"; };
-		792C4DCA25FE54EE006DC199 /* YYBottomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYBottomView.h; sourceTree = "<group>"; };
-		792C4DCB25FE54EE006DC199 /* YYBottomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYBottomView.m; sourceTree = "<group>"; };
-		792C4DCD25FE5504006DC199 /* YYBottomView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YYBottomView.xib; sourceTree = "<group>"; };
+		799D606325FEF84A00842CC3 /* GKDBListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GKDBListView.m; sourceTree = "<group>"; };
+		799D606425FEF84A00842CC3 /* GKDBListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKDBListView.h; sourceTree = "<group>"; };
 		CF3FC15F820596E1DC1207A5 /* Pods-ContinuousScrollDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContinuousScrollDemo.debug.xcconfig"; path = "Target Support Files/Pods-ContinuousScrollDemo/Pods-ContinuousScrollDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		D41469FD3C019BCCBD3E551E /* Pods-ContinuousScrollDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContinuousScrollDemo.release.xcconfig"; path = "Target Support Files/Pods-ContinuousScrollDemo/Pods-ContinuousScrollDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -109,9 +107,8 @@
 				792C4DC525FE543A006DC199 /* YYHeaderView.h */,
 				792C4DC625FE543A006DC199 /* YYHeaderView.m */,
 				792C4DC825FE546E006DC199 /* YYHeaderView.xib */,
-				792C4DCA25FE54EE006DC199 /* YYBottomView.h */,
-				792C4DCB25FE54EE006DC199 /* YYBottomView.m */,
-				792C4DCD25FE5504006DC199 /* YYBottomView.xib */,
+				799D606425FEF84A00842CC3 /* GKDBListView.h */,
+				799D606325FEF84A00842CC3 /* GKDBListView.m */,
 			);
 			path = ContinuousScrollDemo;
 			sourceTree = "<group>";
@@ -176,7 +173,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				792C4DCE25FE5504006DC199 /* YYBottomView.xib in Resources */,
 				792C4DB925FE1152006DC199 /* LaunchScreen.storyboard in Resources */,
 				792C4DB625FE1152006DC199 /* Assets.xcassets in Resources */,
 				792C4DB425FE1151006DC199 /* Main.storyboard in Resources */,
@@ -253,7 +249,7 @@
 				792C4DB125FE1151006DC199 /* ViewController.m in Sources */,
 				792C4DAB25FE1151006DC199 /* AppDelegate.m in Sources */,
 				792C4DC425FE1504006DC199 /* YYMainScrollView.m in Sources */,
-				792C4DCC25FE54EE006DC199 /* YYBottomView.m in Sources */,
+				799D606525FEF84A00842CC3 /* GKDBListView.m in Sources */,
 				792C4DBC25FE1152006DC199 /* main.m in Sources */,
 				792C4DC725FE543A006DC199 /* YYHeaderView.m in Sources */,
 			);
